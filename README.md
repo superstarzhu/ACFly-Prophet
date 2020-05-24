@@ -24,7 +24,7 @@
     Real-time detection of compass anomalies (magnetic interference, etc.) 
     When the compass is abnormal or no compass, the position sensor is used to correct the course
 
-## 快速飞行控制及传感器二次开发 Rapid secondary development of flight control and sensor
+## 快速飞行控制及传感器二次开发 Fast secondary development of flight control and sensor
 ### 飞行控制二次开发
         Modes 飞行控制模式 Flight control modes       
         在模式中调用控制接口即可完成飞行控制二次开发
