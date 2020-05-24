@@ -41,4 +41,6 @@
             MeasurementSystem.hpp
                 提供解算（姿态位置速度等）信息获取接口
                 Provide solution (attitude, position, speed, etc.) information acquisition interface
-    
+            MSafe安全模式可以在用户二次开发代码有问题时自动接管，保障二次开发飞行安全
+            MSafe safety mode can automatically take over when the user has problems with the secondary development code
+            This can ensure the safety of secondary development flight
