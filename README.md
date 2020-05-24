@@ -19,4 +19,5 @@
     Such as air pressure fluctuations caused by airflow interference, ultrasonic jumps, GPS interference by jammers, etc.       
     Automatically adjusts the weight and switches to use the best sensor for fusion to ensure data stability.
 
-## 磁罗盘异常智能检测
+## 磁罗盘异常智能检测修正 Intelligent detection and correction of compass anomaly
+    实时
