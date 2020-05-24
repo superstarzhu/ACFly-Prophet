@@ -17,4 +17,6 @@
     自动调节权重并切换使用最优的传感器进行融合修正，保证数据稳定性     
     Real-time intelligent detection of sensor abnormalities     
     Such as air pressure fluctuations caused by airflow interference, ultrasonic jumps, GPS interference by jammers, etc.       
-    Automatically adjusts the weight and switches to use the best sensor for fusion correction to ensure data stability.
+    Automatically adjusts the weight and switches to use the best sensor for fusion to ensure data stability.
+
+## 磁罗盘异常智能检测
