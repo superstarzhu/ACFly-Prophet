@@ -20,4 +20,4 @@
     Automatically adjusts the weight and switches to use the best sensor for fusion to ensure data stability.
 
 ## 磁罗盘异常智能检测修正 Intelligent detection and correction of compass anomaly
-    实时
+    实时检测罗盘异常（磁干扰等），罗盘异常或无罗盘
