@@ -1,5 +1,5 @@
 # ACFly-Prophet
-    快速二次开发单参数飞行器飞行控制器       
+    快速二次开发单参数多旋翼飞行控制器       
     Single parameter multi rotor flight controller for fast secondary development environment
     Shop:https://item.taobao.com/item.htm?spm=a230r.1.14.1.7b6f12cf2dA8yr&id=591615647197&ns=1&abbucket=11#detail
 
