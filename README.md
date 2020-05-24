@@ -1,7 +1,8 @@
 # ACFly-Prophet
     快速二次开发单参数多旋翼飞行控制器       
     Single parameter multi rotor flight controller for fast secondary development environment
-    Shop:https://item.taobao.com/item.htm?spm=a230r.1.14.1.7b6f12cf2dA8yr&id=591615647197&ns=1&abbucket=11#detail
+    QQ群：180319060
+    Shop：https://item.taobao.com/item.htm?spm=a230r.1.14.1.7b6f12cf2dA8yr&id=591615647197&ns=1&abbucket=11#detail
 
 ## 单参数调节实现稳定飞行 Single parameter adjustment for stable flight
     只需调节b参数实现稳定飞行，飞机动力越强劲b参数越大，测试得到的机型参数：     
