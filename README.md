@@ -1,5 +1,5 @@
 # ACFly-Prophet
-    单参数飞行器飞行控制器       
+    快速二次开发单参数飞行器飞行控制器       
     Single parameter multi rotor flight controller for fast secondary development environment
 
 ## 单参数调节实现稳定飞行 Single parameter adjustment for stable flight
@@ -20,4 +20,25 @@
     Automatically adjusts the weight and switches to use the best sensor for fusion to ensure data stability.
 
 ## 磁罗盘异常智能检测修正 Intelligent detection and correction of compass anomaly
-    实时检测罗盘异常（磁干扰等），罗盘异常或无罗盘
+    实时检测罗盘异常（磁干扰等），罗盘异常或无罗盘时采用位置传感器修正航向
+    Real-time detection of compass anomalies (magnetic interference, etc.) 
+    When the compass is abnormal or no compass, the position sensor is used to correct the course
+
+## 快速飞行控制及传感器二次开发 Rapid secondary development of flight control and sensor
+### 飞行控制二次开发
+        Modes 飞行控制模式 Flight control modes       
+        在模式中调用控制接口即可完成飞行控制二次开发
+        Call the control system interface in your moded to complete the secondary development of flight control
+            ControlSystem.hpp 控制系统接口 Control system interface
+                提供直线飞行、控制速度等函数接口
+                Provide straight-line flight, speed control and other function interfaces
+            NavCmdProcess.hpp 控制流程接口 Control processes interface
+                提供航线飞行等控制流程（与Mavlink兼容）
+                Provide route and other control processes (compatible with Mavlink)
+            Receiver.hpp
+                提供遥控信号获取接口
+                Provide remote control signal acquisition interface
+            MeasurementSystem.hpp
+                提供解算（姿态位置速度等）信息获取接口
+                Provide solution (attitude, position, speed, etc.) information acquisition interface
+    
