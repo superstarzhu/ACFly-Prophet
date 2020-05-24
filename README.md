@@ -28,7 +28,7 @@
 ### 飞行控制二次开发
         Modes 飞行控制模式 Flight control modes       
         在模式中调用控制接口即可完成飞行控制二次开发
-        Call the control system interface in your moded to complete the secondary development of flight control
+        Call the control system interface in your modes to complete the secondary development of flight control
             ControlSystem.hpp 控制系统接口 Control system interface
                 提供直线飞行、控制速度等函数接口
                 Provide straight-line flight, speed control and other function interfaces
