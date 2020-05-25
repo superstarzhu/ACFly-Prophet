@@ -5,9 +5,14 @@
     Shop：https://item.taobao.com/item.htm?spm=a230r.1.14.1.7b6f12cf2dA8yr&id=591615647197&ns=1&abbucket=11#detail
 
 ## 单参数调节实现稳定飞行 Single parameter adjustment for stable flight
-    只需调节b参数实现稳定飞行，飞机动力越强劲b参数越大，测试得到的机型参数：     
+    只需调节b参数实现稳定飞行，飞机动力越强劲b参数越大      
+    在250-2000轴距，4-8轴，500g-40kg多旋翼飞行器上测试过此调参方法的稳定性        
+    测试得到的机型参数：    
     Only need to adjust the b parameter to achieve stable flight        
-    The stronger the aircraft power, the greater the b parameter, the model parameters obtained by the test:      
+    The stronger the aircraft power, the greater the b parameter   
+    The stability of this control method has been tested on 
+        250-2000 wheelbase, 4-8 axis, 500g-40kg multi-rotor aircraft
+    the model parameters obtained by the test:      
         F450+U2216 800kv+1147+4s b=4.5      
         F450+dji2312 940v+9450+4s b=7.5     
         dh600+4114 400kv+1555+6s b=5.5      
